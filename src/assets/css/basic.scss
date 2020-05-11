@@ -1,0 +1,239 @@
+@font-face {font-family: "iconfont";
+  src: url('./fonts/iconfont.ttf?t=1587895025817') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('./fonts/iconfont.svg?t=1575463194754#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// .iconfont {
+//   font-family: "iconfont" !important;
+//   font-size: 16px;
+//   font-style: normal;
+//   -webkit-font-smoothing: antialiased;
+//   -moz-osx-font-smoothing: grayscale;
+// }
+
+.iconsucai:before {
+  content: "\e679";
+}
+
+.iconcursor_huaban:before {
+  content: "\e673";
+}
+
+.iconarrow:before {
+  content: "\e672";
+}
+
+.iconxiguan:before {
+  content: "\e66e";
+}
+
+.iconmany:before {
+  content: "\e66a";
+}
+
+.iconone:before {
+  content: "\e66b";
+}
+
+.iconrotate:before {
+  content: "\e652";
+}
+
+.iconclosepx1:before {
+  content: "\e84c";
+}
+
+.iconsave:before {
+  content: "\e651";
+}
+
+.iconcircular:before {
+  content: "\e64b";
+}
+
+.iconImport:before {
+  content: "\e64c";
+}
+
+.iconrectangle:before {
+  content: "\e64d";
+}
+
+.iconpreview:before {
+  content: "\e64e";
+}
+
+.iconGraphical:before {
+  content: "\e64f";
+}
+
+.iconvague:before {
+  content: "\e650";
+}
+
+.iconicon-test1:before {
+  content: "\e649";
+}
+
+.iconmoren:before {
+  content: "\e648";
+}
+
+.iconsuspend:before {
+  content: "\e63f";
+}
+
+.iconplay:before {
+  content: "\e640";
+}
+
+.iconleftplay:before {
+  content: "\e641";
+}
+
+.iconrightplay:before {
+  content: "\e642";
+}
+
+.iconnarrow:before {
+  content: "\e646";
+}
+
+.iconenlarge:before {
+  content: "\e647";
+}
+
+.icontext:before {
+  content: "\e645";
+}
+
+.iconclose:before {
+  content: "\e643";
+}
+
+.iconicon-test:before {
+  content: "\e63d";
+}
+
+.iconicon-test2:before {
+  content: "\e63e";
+}
+
+.iconretract:before {
+  content: "\e638";
+}
+
+.iconopen:before {
+  content: "\e63a";
+}
+
+.icondel:before {
+  content: "\e639";
+}
+
+.iconerror:before {
+  content: "\e635";
+}
+
+.icontips:before {
+  content: "\e636";
+}
+
+.iconfile:before {
+  content: "\e62e";
+}
+
+.iconfile_sel:before {
+  content: "\e62f";
+}
+
+.iconsuccess:before {
+  content: "\e631";
+}
+
+::-webkit-scrollbar{ width: 6px; height: 6px; }
+::-webkit-scrollbar-button{ width: 6px; height: 6px; position: relative; }
+::-webkit-scrollbar-thumb{ border-radius: 6px; -webkit-box-shadow: inset 0 0 6px rgba( 0, 0, 0, .2); background-color: rgba(187, 187, 187, .6); }
+::-webkit-scrollbar-thumb:hover{ background-color: rgba(187, 187, 187, .85); }
+::-webkit-scrollbar-track{ -webkit-box-shadow: inset 0 0 4px rgba( 0, 0, 0, .2); }
+
+@font-face{
+  font-family: '思源黑体';
+  src: url("./fonts/siyuanheiti.ttf");
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+  width: 100%;
+  height: 100%;
+  min-height: 500px;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  -webkit-user-select: none;
+  color: #2c3e50;
+  background-color: #fff;
+  overflow: hidden;
+}
+ul,
+li {
+  list-style: none;
+}
+.btn{
+  padding: 5px 12px;
+  border: 1px solid #d6d6d6;
+  color: #3e3e3e;
+  font-size: 12px;
+  border-radius: 2px;
+  cursor: pointer;
+  &:hover{
+    border: 1px solid #b5b5b5;
+    color: #000000;
+  }
+}
+
+.blue-btn{
+  color: #fff;
+  background-color: #4fb5ff;
+  padding: 6px 13px;
+  border: 0 none;
+  &:hover{
+    background-color: #3a97ff;
+    border: 0 none;
+    color: #fff;
+  }
+}
+
+.fr{
+  float: right;
+}
+
+.color-picker-box{
+  width: 110px;
+  height: 28px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.info-item{
+  margin-bottom: 10px;
+}
